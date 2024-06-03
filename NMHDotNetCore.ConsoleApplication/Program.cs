@@ -1,11 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using NMHDotNetCore.ConsoleApplication.AdoDotNetExamples;
+using NMHDotNetCore.ConsoleApplication.DapperExamples;
 
 Console.WriteLine("Hello, World!");
-
-//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
-//adoDotNetExample.Read();
 
 //new AdoDotNetExample().Read();
 
@@ -15,6 +13,8 @@ Console.WriteLine("Hello, World!");
 
 //new AdoDotNetExample().Update(1006, "Local", "John", "How to update");
 
-new AdoDotNetExample().Edit(1006);
+//new AdoDotNetExample().Edit(1006);
+
+new DapperExample().Run();
 
 Console.ReadKey();
