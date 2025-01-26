@@ -11,9 +11,10 @@ internal static class ConnectionString
 {
     public static SqlConnectionStringBuilder SqlConnectionStringBuilder = new SqlConnectionStringBuilder()
     {
-        DataSource = ".\\SQL2019E",
+        DataSource = ".\\SQL2022E",
         InitialCatalog = "Blog",
         UserID = "sa",
-        Password = "p@ssw0rd"
+        Password = "p@ssw0rd",
+        TrustServerCertificate = true
     };
 }

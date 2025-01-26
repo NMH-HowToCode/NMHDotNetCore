@@ -2,8 +2,9 @@
 
 using NMHDotNetCore.ConsoleApplication.AdoDotNetExamples;
 using NMHDotNetCore.ConsoleApplication.DapperExamples;
+using NMHDotNetCore.ConsoleApplication.EFCoreExamples;
 
-Console.WriteLine("Hello, World!");
+
 
 //new AdoDotNetExample().Read();
 
@@ -15,6 +16,8 @@ Console.WriteLine("Hello, World!");
 
 //new AdoDotNetExample().Edit(1006);
 
-new DapperExample().Run();
+//new DapperExample().Run();
+
+new EFCoreExample().Run();
 
 Console.ReadKey();

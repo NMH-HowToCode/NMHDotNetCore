@@ -9,7 +9,7 @@
         #region Create Database Connection String 
         private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
         {
-            DataSource = ".\\SQL2019E",
+            DataSource = ".\\SQL2022E",
             InitialCatalog = "Blog",
             UserID = "sa",
             Password = "p@ssw0rd"
